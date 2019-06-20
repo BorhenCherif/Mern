@@ -1,0 +1,26 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BorhenCherif/Mern.git"
+  },
+  "author": "Borhen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BorhenCherif/Mern/issues"
+  },
+  "homepage": "https://github.com/BorhenCherif/Mern#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.0"
+  }
+}
